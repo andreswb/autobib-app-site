@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title data-en="AutoBib — Your classic-car library" data-de="AutoBib — Deine Oldtimer-Bibliothek">AutoBib — Your classic-car library</title>
-<meta name="description" data-en="Spot, scan and catalogue classic cars. A private, on-device library for car enthusiasts and oldtimer club members." data-de="Oldtimer entdecken, scannen und katalogisieren. Eine private Bibliothek auf dem Gerät für Autofans und Clubmitglieder." content="Spot, scan and catalogue classic cars. A private, on-device library for car enthusiasts and oldtimer club members." />
+<title data-en="AutoBib — Your classic-car library" data-de="AutoBib — Deine Oldtimer-Bibliothek" data-es="AutoBib — Tu biblioteca de autos clásicos">AutoBib — Your classic-car library</title>
+<meta name="description" data-en="Spot, scan and catalogue classic cars. A private, on-device library for car enthusiasts and oldtimer club members." data-de="Oldtimer entdecken, scannen und katalogisieren. Eine private Bibliothek auf dem Gerät für Autofans und Clubmitglieder." data-es="Avista, escanea y cataloga autos clásicos. Una biblioteca privada en el dispositivo para aficionados y clubes de autos clásicos." content="Spot, scan and catalogue classic cars. A private, on-device library for car enthusiasts and oldtimer club members." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -46,7 +46,7 @@
   .nav .links a{color:var(--muted);text-decoration:none;font-size:.94rem;font-weight:500}
   .nav .links a:hover{color:var(--ink)}
   .langtoggle{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;background:#fff}
-  .langtoggle button{border:0;background:transparent;padding:6px 12px;font:inherit;font-size:.82rem;font-weight:600;
+  .langtoggle button{border:0;background:transparent;padding:6px 11px;font:inherit;font-size:.82rem;font-weight:600;
     color:var(--muted);cursor:pointer}
   .langtoggle button.on{background:var(--ink);color:#fff}
   @media(max-width:760px){.nav .links{display:none}}
@@ -145,14 +145,15 @@
       AutoBib
     </a>
     <nav class="links">
-      <a href="#features" data-en="Features" data-de="Funktionen">Features</a>
-      <a href="#how" data-en="How it works" data-de="So funktioniert's">How it works</a>
-      <a href="#catalogs" data-en="Catalogues" data-de="Kataloge">Catalogues</a>
-      <a href="#privacy" data-en="Privacy" data-de="Datenschutz">Privacy</a>
+      <a href="#features" data-en="Features" data-de="Funktionen" data-es="Funciones">Features</a>
+      <a href="#how" data-en="How it works" data-de="So funktioniert's" data-es="Cómo funciona">How it works</a>
+      <a href="#catalogs" data-en="Catalogues" data-de="Kataloge" data-es="Catálogos">Catalogues</a>
+      <a href="#privacy" data-en="Privacy" data-de="Datenschutz" data-es="Privacidad">Privacy</a>
     </nav>
     <div class="langtoggle" role="group" aria-label="Language">
       <button id="lang-en" onclick="setLang('en')">EN</button>
       <button id="lang-de" onclick="setLang('de')">DE</button>
+      <button id="lang-es" onclick="setLang('es')">ES</button>
     </div>
   </div>
 </header>
@@ -161,37 +162,37 @@
 <section class="hero" style="padding:0">
   <div class="wrap">
     <div>
-      <span class="eyebrow"><span class="flag">🇨🇭</span><span data-en="Made in Switzerland" data-de="Entwickelt in der Schweiz">Made in Switzerland</span></span>
-      <h1 data-en="Your classic-car library, in your pocket." data-de="Deine Oldtimer-Bibliothek für die Hosentasche.">Your classic-car library, in your pocket.</h1>
-      <p class="lead" data-en="Spot a car at a show, scan its info card, and build a private catalogue of the cars you own — and the ones you've seen. All on your iPhone." data-de="Entdecke ein Auto auf einem Treffen, scanne seine Infokarte und baue dir einen privaten Katalog aus deinen eigenen und den gespotteten Fahrzeugen. Alles auf deinem iPhone.">Spot a car at a show, scan its info card, and build a private catalogue of the cars you own — and the ones you've seen. All on your iPhone.</p>
+      <span class="eyebrow"><span class="flag">🇨🇭</span><span data-en="Made in Switzerland" data-de="Entwickelt in der Schweiz" data-es="Hecho en Suiza">Made in Switzerland</span></span>
+      <h1 data-en="Your classic-car library, in your pocket." data-de="Deine Oldtimer-Bibliothek für die Hosentasche." data-es="Tu biblioteca de autos clásicos, en tu bolsillo.">Your classic-car library, in your pocket.</h1>
+      <p class="lead" data-en="Spot a car at a show, scan its info card, and build a private catalogue of the cars you own — and the ones you've seen. All on your iPhone." data-de="Entdecke ein Auto auf einem Treffen, scanne seine Infokarte und baue dir einen privaten Katalog aus deinen eigenen und den gespotteten Fahrzeugen. Alles auf deinem iPhone." data-es="Avista un auto en una exposición, escanea su ficha y arma un catálogo privado de los autos que tienes y los que has visto. Todo en tu iPhone.">Spot a car at a show, scan its info card, and build a private catalogue of the cars you own — and the ones you've seen. All on your iPhone.</p>
       <div class="cta">
         <a class="badge" id="appstore" href="https://apps.apple.com/app/id6785083797" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.05 12.04c-.03-2.86 2.34-4.23 2.45-4.3-1.34-1.96-3.42-2.23-4.16-2.26-1.77-.18-3.46 1.04-4.36 1.04-.9 0-2.29-1.02-3.76-.99-1.94.03-3.73 1.13-4.73 2.86-2.02 3.5-.52 8.69 1.45 11.53.96 1.39 2.11 2.95 3.62 2.89 1.45-.06 2-.94 3.75-.94s2.25.94 3.78.91c1.56-.03 2.55-1.42 3.5-2.81 1.1-1.6 1.56-3.15 1.58-3.23-.03-.02-3.03-1.16-3.06-4.61M14.2 4.38c.8-.97 1.34-2.32 1.19-3.66-1.15.05-2.54.77-3.36 1.73-.74.86-1.38 2.23-1.21 3.55 1.28.1 2.59-.65 3.38-1.62"/></svg>
-          <span class="t"><small data-en="Download on the" data-de="Laden im">Download on the</small><b data-en="App Store" data-de="App Store">App Store</b></span>
+          <span class="t"><small data-en="Download on the" data-de="Laden im" data-es="Descarga en el">Download on the</small><b data-en="App Store" data-de="App Store" data-es="App Store">App Store</b></span>
         </a>
       </div>
-      <p class="heronote mt" data-en="iPhone · iOS 18 · English & Deutsch · No ads, no tracking" data-de="iPhone · iOS 18 · Deutsch & English · Keine Werbung, kein Tracking">iPhone · iOS 18 · English &amp; Deutsch · No ads, no tracking</p>
+      <p class="heronote mt" data-en="iPhone · iOS 18 · English & Deutsch & Español · No ads, no tracking" data-de="iPhone · iOS 18 · Deutsch & English & Español · Keine Werbung, kein Tracking" data-es="iPhone · iOS 18 · Español, English & Deutsch · Sin anuncios ni rastreo">iPhone · iOS 18 · English &amp; Deutsch &amp; Español · No ads, no tracking</p>
     </div>
 
     <!-- Decorative card cluster (illustrative, not the app UI) -->
     <div class="herodeck" aria-hidden="true">
       <div class="dcard d1">
-        <div class="lab" data-en="Scan" data-de="Scannen">Scan</div>
-        <h4 data-en="Info card, read on-device" data-de="Infokarte, auf dem Gerät gelesen">Info card, read on-device</h4>
-        <p data-en="Make, model and year — matched to the catalogue." data-de="Marke, Modell und Baujahr – mit dem Katalog abgeglichen.">Make, model and year — matched to the catalogue.</p>
+        <div class="lab" data-en="Scan" data-de="Scannen" data-es="Escanear">Scan</div>
+        <h4 data-en="Info card, read on-device" data-de="Infokarte, auf dem Gerät gelesen" data-es="Ficha, leída en el dispositivo">Info card, read on-device</h4>
+        <p data-en="Make, model and year — matched to the catalogue." data-de="Marke, Modell und Baujahr – mit dem Katalog abgeglichen." data-es="Marca, modelo y año, comparados con el catálogo.">Make, model and year — matched to the catalogue.</p>
       </div>
       <div class="dcard d2">
-        <div class="lab" data-en="Rarity" data-de="Seltenheit">Rarity</div>
+        <div class="lab" data-en="Rarity" data-de="Seltenheit" data-es="Rareza">Rarity</div>
         <div style="display:flex;align-items:baseline;gap:8px;margin-top:2px">
           <span style="font-family:'Fraunces',serif;font-size:1.9rem;font-weight:700">88</span>
-          <span class="dchip" style="background:#efe3fb;color:#7b41c4">Exotic</span>
+          <span class="dchip" style="background:#efe3fb;color:#7b41c4" data-en="Exotic" data-de="Exotisch" data-es="Exótico">Exotic</span>
         </div>
         <div class="scalebar"></div>
       </div>
       <div class="dcard d3">
-        <div class="lab" data-en="Condition" data-de="Zustand">Condition</div>
-        <h4 data-en="Note 2 — Excellent" data-de="Note 2 — gut">Note 2 — Excellent</h4>
-        <p data-en="Collector 1–5 grading built in." data-de="Sammler-Bewertung 1–5 integriert.">Collector 1–5 grading built in.</p>
+        <div class="lab" data-en="Condition" data-de="Zustand" data-es="Estado">Condition</div>
+        <h4 data-en="Note 2 — Excellent" data-de="Note 2 — gut" data-es="Nota 2 — Excelente">Note 2 — Excellent</h4>
+        <p data-en="Collector 1–5 grading built in." data-de="Sammler-Bewertung 1–5 integriert." data-es="Calificación de coleccionista 1–5 integrada.">Collector 1–5 grading built in.</p>
       </div>
     </div>
   </div>
@@ -201,39 +202,39 @@
 <section id="features">
   <div class="wrap">
     <div class="sec-head">
-      <div class="kicker" data-en="Features" data-de="Funktionen">Features</div>
-      <h2 data-en="Everything an enthusiast needs to catalogue a collection." data-de="Alles, was Enthusiasten zum Katalogisieren ihrer Sammlung brauchen.">Everything an enthusiast needs to catalogue a collection.</h2>
+      <div class="kicker" data-en="Features" data-de="Funktionen" data-es="Funciones">Features</div>
+      <h2 data-en="Everything an enthusiast needs to catalogue a collection." data-de="Alles, was Enthusiasten zum Katalogisieren ihrer Sammlung brauchen." data-es="Todo lo que un aficionado necesita para catalogar una colección.">Everything an enthusiast needs to catalogue a collection.</h2>
     </div>
     <div class="grid">
       <div class="card">
         <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7V5a1 1 0 0 1 1-1h2M20 7V5a1 1 0 0 0-1-1h-2M4 17v2a1 1 0 0 0 1 1h2M20 17v2a1 1 0 0 1-1 1h-2"/><rect x="7" y="9" width="10" height="6" rx="1"/></svg></div>
-        <h3 data-en="Scan the info card" data-de="Infokarte scannen">Scan the info card</h3>
-        <p data-en="Photograph the placard at a show. AutoBib reads the make, model and year on-device and finds the exact match in the catalogue." data-de="Fotografiere die Infokarte am Auto. AutoBib liest Marke, Modell und Baujahr direkt auf dem Gerät und findet den exakten Treffer im Katalog.">Photograph the placard at a show. AutoBib reads the make, model and year on-device and finds the exact match in the catalogue.</p>
+        <h3 data-en="Scan the info card" data-de="Infokarte scannen" data-es="Escanea la ficha">Scan the info card</h3>
+        <p data-en="Photograph the placard at a show. AutoBib reads the make, model and year on-device and finds the exact match in the catalogue." data-de="Fotografiere die Infokarte am Auto. AutoBib liest Marke, Modell und Baujahr direkt auf dem Gerät und findet den exakten Treffer im Katalog." data-es="Fotografía la ficha en una exposición. AutoBib lee la marca, el modelo y el año en el dispositivo y encuentra la coincidencia exacta en el catálogo.">Photograph the placard at a show. AutoBib reads the make, model and year on-device and finds the exact match in the catalogue.</p>
       </div>
       <div class="card">
         <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
-        <h3 data-en="On-device & private" data-de="Auf dem Gerät & privat">On-device &amp; private</h3>
-        <p data-en="No accounts, no cloud, no tracking, no ads. Recognition runs offline and your collection never leaves your iPhone." data-de="Kein Konto, keine Cloud, kein Tracking, keine Werbung. Die Erkennung läuft offline und deine Sammlung verlässt dein iPhone nie.">No accounts, no cloud, no tracking, no ads. Recognition runs offline and your collection never leaves your iPhone.</p>
+        <h3 data-en="On-device & private" data-de="Auf dem Gerät & privat" data-es="En el dispositivo y privado">On-device &amp; private</h3>
+        <p data-en="No accounts, no cloud, no tracking, no ads. Recognition runs offline and your collection never leaves your iPhone." data-de="Kein Konto, keine Cloud, kein Tracking, keine Werbung. Die Erkennung läuft offline und deine Sammlung verlässt dein iPhone nie." data-es="Sin cuentas, sin nube, sin rastreo, sin anuncios. El reconocimiento funciona sin conexión y tu colección nunca sale de tu iPhone.">No accounts, no cloud, no tracking, no ads. Recognition runs offline and your collection never leaves your iPhone.</p>
       </div>
       <div class="card">
         <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="9" rx="2"/><path d="M6 11l1-3.5A2 2 0 0 1 8.9 6h6.2a2 2 0 0 1 1.9 1.5L18 11"/><circle cx="8" cy="15.5" r="1"/><circle cx="16" cy="15.5" r="1"/></svg></div>
-        <h3 data-en="Your garage, organised" data-de="Deine Garage, sortiert">Your garage, organised</h3>
-        <p data-en="Separate cars you own from cars you've spotted, mark favourites, and keep a wishlist of the ones you're chasing." data-de="Trenne eigene Autos von gespotteten Fahrzeugen, markiere Favoriten und führe eine Wunschliste der Autos, die du suchst.">Separate cars you own from cars you've spotted, mark favourites, and keep a wishlist of the ones you're chasing.</p>
+        <h3 data-en="Your garage, organised" data-de="Deine Garage, sortiert" data-es="Tu garaje, organizado">Your garage, organised</h3>
+        <p data-en="Separate cars you own from cars you've spotted, mark favourites, and keep a wishlist of the ones you're chasing." data-de="Trenne eigene Autos von gespotteten Fahrzeugen, markiere Favoriten und führe eine Wunschliste der Autos, die du suchst." data-es="Separa los autos que tienes de los que has avistado, marca favoritos y mantén una lista de deseos con los que persigues.">Separate cars you own from cars you've spotted, mark favourites, and keep a wishlist of the ones you're chasing.</p>
       </div>
       <div class="card">
         <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.5 5.5L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.5-.5z"/></svg></div>
-        <h3 data-en="Rarity & condition" data-de="Seltenheit & Zustand">Rarity &amp; condition</h3>
-        <p data-en="Rate rarity on a transparent 0–100 scale, from Common to Grail, and grade condition on the collector 1–5 scale — including the German Zustandsnote." data-de="Bewerte die Seltenheit auf einer transparenten Skala von 0–100, von Common bis Grail, und erfasse den Zustand nach der Sammler-Skala 1–5 – inklusive der deutschen Zustandsnoten.">Rate rarity on a transparent 0–100 scale, from Common to Grail, and grade condition on the collector 1–5 scale — including the German Zustandsnote.</p>
+        <h3 data-en="Rarity & condition" data-de="Seltenheit & Zustand" data-es="Rareza y estado">Rarity &amp; condition</h3>
+        <p data-en="Rate rarity on a transparent 0–100 scale, from Common to Grail, and grade condition on the collector 1–5 scale — including the German Zustandsnote." data-de="Bewerte die Seltenheit auf einer transparenten Skala von 0–100, von Common bis Grail, und erfasse den Zustand nach der Sammler-Skala 1–5 – inklusive der deutschen Zustandsnoten." data-es="Califica la rareza en una escala transparente de 0–100, de Común a Joya, y evalúa el estado en la escala de coleccionista del 1 al 5.">Rate rarity on a transparent 0–100 scale, from Common to Grail, and grade condition on the collector 1–5 scale — including the German Zustandsnote.</p>
       </div>
       <div class="card">
         <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><path d="M3 20a6 6 0 0 1 12 0"/><path d="M16 3.5a3 3 0 0 1 0 5.8M21 20a6 6 0 0 0-5-5.9"/></svg></div>
-        <h3 data-en="Clubs & events" data-de="Clubs & Events">Clubs &amp; events</h3>
-        <p data-en="Track your own club and others, log the shows and meets you attend, and tag the cars you spotted at each one." data-de="Verwalte deinen eigenen Club und andere, dokumentiere besuchte Treffen und ordne die dort gespotteten Autos zu.">Track your own club and others, log the shows and meets you attend, and tag the cars you spotted at each one.</p>
+        <h3 data-en="Clubs & events" data-de="Clubs & Events" data-es="Clubes y eventos">Clubs &amp; events</h3>
+        <p data-en="Track your own club and others, log the shows and meets you attend, and tag the cars you spotted at each one." data-de="Verwalte deinen eigenen Club und andere, dokumentiere besuchte Treffen und ordne die dort gespotteten Autos zu." data-es="Lleva el registro de tu propio club y de otros, anota las exposiciones y encuentros a los que asistes, y etiqueta los autos que avistaste en cada uno.">Track your own club and others, log the shows and meets you attend, and tag the cars you spotted at each one.</p>
       </div>
       <div class="card">
         <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5a2 2 0 0 1 2-2h9l5 5v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/><path d="M14 3v5h5M8 13h8M8 17h5"/></svg></div>
-        <h3 data-en="A growing catalogue" data-de="Wachsender Katalog">A growing catalogue</h3>
-        <p data-en="Hundreds of classics and modern enthusiast cars are built in. Additional curated collections can be unlocked with optional in-app purchases." data-de="Hunderte Klassiker und moderne Enthusiasten-Autos sind integriert. Weitere kuratierte Sammlungen lassen sich mit optionalen In-App-Käufen freischalten.">Hundreds of classics and modern enthusiast cars are built in. Additional curated collections can be unlocked with optional in-app purchases.</p>
+        <h3 data-en="A growing catalogue" data-de="Wachsender Katalog" data-es="Un catálogo en crecimiento">A growing catalogue</h3>
+        <p data-en="Hundreds of classics and modern enthusiast cars are built in. Additional curated collections can be unlocked with optional in-app purchases." data-de="Hunderte Klassiker und moderne Enthusiasten-Autos sind integriert. Weitere kuratierte Sammlungen lassen sich mit optionalen In-App-Käufen freischalten." data-es="Cientos de clásicos y autos modernos para aficionados vienen incluidos. Puedes desbloquear colecciones curadas adicionales con compras opcionales dentro de la app.">Hundreds of classics and modern enthusiast cars are built in. Additional curated collections can be unlocked with optional in-app purchases.</p>
       </div>
     </div>
   </div>
@@ -243,24 +244,24 @@
 <section id="how" style="background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
   <div class="wrap">
     <div class="sec-head">
-      <div class="kicker" data-en="How it works" data-de="So funktioniert's">How it works</div>
-      <h2 data-en="From the show floor to your garage in three taps." data-de="Vom Treffen in deine Garage in drei Schritten.">From the show floor to your garage in three taps.</h2>
+      <div class="kicker" data-en="How it works" data-de="So funktioniert's" data-es="Cómo funciona">How it works</div>
+      <h2 data-en="From the show floor to your garage in three taps." data-de="Vom Treffen in deine Garage in drei Schritten." data-es="De la exposición a tu garaje en tres toques.">From the show floor to your garage in three taps.</h2>
     </div>
     <div class="steps">
       <div class="step">
         <div class="n">1</div>
-        <h3 data-en="Scan or search" data-de="Scannen oder suchen">Scan or search</h3>
-        <p data-en="Scan the show's info card, photograph the car, or simply search the catalogue by hand." data-de="Scanne die Infokarte am Auto, fotografiere das Auto oder durchsuche den Katalog einfach von Hand.">Scan the show's info card, photograph the car, or simply search the catalogue by hand.</p>
+        <h3 data-en="Scan or search" data-de="Scannen oder suchen" data-es="Escanea o busca">Scan or search</h3>
+        <p data-en="Scan the show's info card, photograph the car, or simply search the catalogue by hand." data-de="Scanne die Infokarte am Auto, fotografiere das Auto oder durchsuche den Katalog einfach von Hand." data-es="Escanea la ficha de la exposición, fotografía el auto o simplemente busca en el catálogo a mano.">Scan the show's info card, photograph the car, or simply search the catalogue by hand.</p>
       </div>
       <div class="step">
         <div class="n">2</div>
-        <h3 data-en="Confirm the match" data-de="Treffer bestätigen">Confirm the match</h3>
-        <p data-en="AutoBib proposes the likely model — you confirm the exact variant and year before saving." data-de="AutoBib schlägt das wahrscheinliche Modell vor – du bestätigst die genaue Variante und das Baujahr vor dem Speichern.">AutoBib proposes the likely model — you confirm the exact variant and year before saving.</p>
+        <h3 data-en="Confirm the match" data-de="Treffer bestätigen" data-es="Confirma la coincidencia">Confirm the match</h3>
+        <p data-en="AutoBib proposes the likely model — you confirm the exact variant and year before saving." data-de="AutoBib schlägt das wahrscheinliche Modell vor – du bestätigst die genaue Variante und das Baujahr vor dem Speichern." data-es="AutoBib propone el modelo probable; tú confirmas la versión y el año exactos antes de guardar.">AutoBib proposes the likely model — you confirm the exact variant and year before saving.</p>
       </div>
       <div class="step">
         <div class="n">3</div>
-        <h3 data-en="Save to your garage" data-de="In der Garage speichern">Save to your garage</h3>
-        <p data-en="Tag the owner, club or event, set the rarity and condition, and it's yours to keep — forever, offline." data-de="Ordne Besitzer, Club oder Event zu, lege Seltenheit und Zustand fest – und es gehört für immer dir, offline.">Tag the owner, club or event, set the rarity and condition, and it's yours to keep — forever, offline.</p>
+        <h3 data-en="Save to your garage" data-de="In der Garage speichern" data-es="Guarda en tu garaje">Save to your garage</h3>
+        <p data-en="Tag the owner, club or event, set the rarity and condition, and it's yours to keep — forever, offline." data-de="Ordne Besitzer, Club oder Event zu, lege Seltenheit und Zustand fest – und es gehört für immer dir, offline." data-es="Marca el propietario, el club o el evento, define la rareza y el estado, y queda guardado para siempre, sin conexión.">Tag the owner, club or event, set the rarity and condition, and it's yours to keep — forever, offline.</p>
       </div>
     </div>
   </div>
@@ -270,17 +271,17 @@
 <section id="catalogs">
   <div class="wrap">
     <div class="sec-head">
-      <div class="kicker" data-en="Catalogues" data-de="Kataloge">Catalogues</div>
-      <h2 data-en="Built-in catalogue, plus optional collections." data-de="Integrierter Katalog plus optionale Sammlungen.">Built-in catalogue, plus optional collections.</h2>
-      <p data-en="AutoBib ships with hundreds of cars. Go deeper with curated content packs — available as optional in-app purchases, or unlock everything at once." data-de="AutoBib bringt Hunderte Autos mit. Tauche tiefer ein mit kuratierten Inhaltspaketen – erhältlich als optionale In-App-Käufe, oder schalte alles auf einmal frei.">AutoBib ships with hundreds of cars. Go deeper with curated content packs — available as optional in-app purchases, or unlock everything at once.</p>
+      <div class="kicker" data-en="Catalogues" data-de="Kataloge" data-es="Catálogos">Catalogues</div>
+      <h2 data-en="Built-in catalogue, plus optional collections." data-de="Integrierter Katalog plus optionale Sammlungen." data-es="Catálogo integrado, más colecciones opcionales.">Built-in catalogue, plus optional collections.</h2>
+      <p data-en="AutoBib ships with hundreds of cars. Go deeper with curated content packs — available as optional in-app purchases, or unlock everything at once." data-de="AutoBib bringt Hunderte Autos mit. Tauche tiefer ein mit kuratierten Inhaltspaketen – erhältlich als optionale In-App-Käufe, oder schalte alles auf einmal frei." data-es="AutoBib viene con cientos de autos. Profundiza con paquetes de contenido curados, disponibles como compras opcionales dentro de la app, o desbloquea todo de una vez.">AutoBib ships with hundreds of cars. Go deeper with curated content packs — available as optional in-app purchases, or unlock everything at once.</p>
     </div>
     <div class="packs">
       <span class="tag">Classic V8</span>
       <span class="tag">Classic V6</span>
-      <span class="tag" data-en="Classic Inline-6" data-de="Klassische Reihensechszylinder">Classic Inline-6</span>
-      <span class="tag" data-en="Classic 4-Cylinder" data-de="Klassische Vierzylinder">Classic 4-Cylinder</span>
-      <span class="tag" data-en="Air-Cooled Flat-6" data-de="Luftgekühlte Boxer-Sechszylinder">Air-Cooled Flat-6</span>
-      <span class="tag" data-en="Special Classics" data-de="Besondere Klassiker">Special Classics</span>
+      <span class="tag" data-en="Classic Inline-6" data-de="Klassische Reihensechszylinder" data-es="Clásicos 6 en línea">Classic Inline-6</span>
+      <span class="tag" data-en="Classic 4-Cylinder" data-de="Klassische Vierzylinder" data-es="Clásicos 4 cilindros">Classic 4-Cylinder</span>
+      <span class="tag" data-en="Air-Cooled Flat-6" data-de="Luftgekühlte Boxer-Sechszylinder" data-es="Bóxer 6 refrigerado por aire">Air-Cooled Flat-6</span>
+      <span class="tag" data-en="Special Classics" data-de="Besondere Klassiker" data-es="Clásicos especiales">Special Classics</span>
     </div>
   </div>
 </section>
@@ -289,13 +290,13 @@
 <section id="privacy" style="padding-top:0">
   <div class="band">
     <div class="wrap2">
-      <h2 data-en="Private by design." data-de="Von Grund auf privat.">Private by design.</h2>
-      <p class="sub" data-en="AutoBib was built to keep your collection yours. There are no accounts and nothing to sign up for — every photo and record lives only on your device." data-de="AutoBib wurde so gebaut, dass deine Sammlung dir gehört. Es gibt keine Konten und keine Anmeldung – jedes Foto und jeder Eintrag bleibt nur auf deinem Gerät.">AutoBib was built to keep your collection yours. There are no accounts and nothing to sign up for — every photo and record lives only on your device.</p>
+      <h2 data-en="Private by design." data-de="Von Grund auf privat." data-es="Privado por diseño.">Private by design.</h2>
+      <p class="sub" data-en="AutoBib was built to keep your collection yours. There are no accounts and nothing to sign up for — every photo and record lives only on your device." data-de="AutoBib wurde so gebaut, dass deine Sammlung dir gehört. Es gibt keine Konten und keine Anmeldung – jedes Foto und jeder Eintrag bleibt nur auf deinem Gerät." data-es="AutoBib se creó para que tu colección sea tuya. No hay cuentas ni registros: cada foto y cada dato viven solo en tu dispositivo.">AutoBib was built to keep your collection yours. There are no accounts and nothing to sign up for — every photo and record lives only on your device.</p>
       <div class="checks">
-        <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg><span data-en="No account or sign-up" data-de="Kein Konto, keine Anmeldung">No account or sign-up</span></div>
-        <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg><span data-en="No cloud sync" data-de="Keine Cloud-Synchronisierung">No cloud sync</span></div>
-        <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg><span data-en="No tracking or ads" data-de="Kein Tracking, keine Werbung">No tracking or ads</span></div>
-        <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg><span data-en="Recognition runs offline" data-de="Erkennung läuft offline">Recognition runs offline</span></div>
+        <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg><span data-en="No account or sign-up" data-de="Kein Konto, keine Anmeldung" data-es="Sin cuenta ni registro">No account or sign-up</span></div>
+        <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg><span data-en="No cloud sync" data-de="Keine Cloud-Synchronisierung" data-es="Sin sincronización en la nube">No cloud sync</span></div>
+        <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg><span data-en="No tracking or ads" data-de="Kein Tracking, keine Werbung" data-es="Sin rastreo ni anuncios">No tracking or ads</span></div>
+        <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg><span data-en="Recognition runs offline" data-de="Erkennung läuft offline" data-es="El reconocimiento funciona sin conexión">Recognition runs offline</span></div>
       </div>
     </div>
   </div>
@@ -304,12 +305,12 @@
 <!-- FINAL CTA -->
 <section class="center" style="padding-top:24px">
   <div class="wrap">
-    <h2 style="font-size:clamp(1.7rem,3vw,2.3rem);font-weight:600" data-en="Start your collection today." data-de="Beginne heute deine Sammlung.">Start your collection today.</h2>
-    <p style="color:var(--muted);margin:10px auto 0;max-width:46ch" data-en="Free to download. Catalogue every car you love." data-de="Kostenloser Download. Katalogisiere jedes Auto, das du liebst.">Free to download. Catalogue every car you love.</p>
+    <h2 style="font-size:clamp(1.7rem,3vw,2.3rem);font-weight:600" data-en="Start your collection today." data-de="Beginne heute deine Sammlung." data-es="Comienza tu colección hoy.">Start your collection today.</h2>
+    <p style="color:var(--muted);margin:10px auto 0;max-width:46ch" data-en="Free to download. Catalogue every car you love." data-de="Kostenloser Download. Katalogisiere jedes Auto, das du liebst." data-es="Descarga gratis. Cataloga cada auto que amas.">Free to download. Catalogue every car you love.</p>
     <div class="cta" style="justify-content:center;margin-top:24px">
       <a class="badge" href="https://apps.apple.com/app/id6785083797" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.05 12.04c-.03-2.86 2.34-4.23 2.45-4.3-1.34-1.96-3.42-2.23-4.16-2.26-1.77-.18-3.46 1.04-4.36 1.04-.9 0-2.29-1.02-3.76-.99-1.94.03-3.73 1.13-4.73 2.86-2.02 3.5-.52 8.69 1.45 11.53.96 1.39 2.11 2.95 3.62 2.89 1.45-.06 2-.94 3.75-.94s2.25.94 3.78.91c1.56-.03 2.55-1.42 3.5-2.81 1.1-1.6 1.56-3.15 1.58-3.23-.03-.02-3.03-1.16-3.06-4.61M14.2 4.38c.8-.97 1.34-2.32 1.19-3.66-1.15.05-2.54.77-3.36 1.73-.74.86-1.38 2.23-1.21 3.55 1.28.1 2.59-.65 3.38-1.62"/></svg>
-        <span class="t"><small data-en="Download on the" data-de="Laden im">Download on the</small><b>App Store</b></span>
+        <span class="t"><small data-en="Download on the" data-de="Laden im" data-es="Descarga en el">Download on the</small><b>App Store</b></span>
       </a>
     </div>
   </div>
@@ -319,19 +320,19 @@
 <section id="privacy-policy" style="background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
   <div class="wrap" style="max-width:780px">
     <div class="sec-head" style="margin-bottom:20px">
-      <div class="kicker" data-en="Privacy" data-de="Datenschutz">Privacy</div>
-      <h2 data-en="Privacy Policy" data-de="Datenschutzerklärung">Privacy Policy</h2>
+      <div class="kicker" data-en="Privacy" data-de="Datenschutz" data-es="Privacidad">Privacy</div>
+      <h2 data-en="Privacy Policy" data-de="Datenschutzerklärung" data-es="Política de privacidad">Privacy Policy</h2>
     </div>
-    <p style="color:var(--muted);margin-bottom:16px" data-en="AutoBib does not collect, transmit, or process any personal data. There are no accounts and no servers of our own." data-de="AutoBib erhebt, überträgt oder verarbeitet keine personenbezogenen Daten. Es gibt keine Konten und keine eigenen Server.">AutoBib does not collect, transmit, or process any personal data. There are no accounts and no servers of our own.</p>
+    <p style="color:var(--muted);margin-bottom:16px" data-en="AutoBib does not collect, transmit, or process any personal data. There are no accounts and no servers of our own." data-de="AutoBib erhebt, überträgt oder verarbeitet keine personenbezogenen Daten. Es gibt keine Konten und keine eigenen Server." data-es="AutoBib no recopila, transmite ni procesa ningún dato personal. No hay cuentas ni servidores propios.">AutoBib does not collect, transmit, or process any personal data. There are no accounts and no servers of our own.</p>
     <ul style="list-style:none;display:grid;gap:11px;margin:0 0 18px">
-      <li style="position:relative;padding-left:22px;color:var(--muted)"><span style="position:absolute;left:0;top:9px;width:8px;height:8px;border-radius:50%;background:var(--accent)"></span><span data-en="Everything you create — photos, car records, clubs, events and notes — is stored only on your device and never leaves it." data-de="Alles, was du erstellst – Fotos, Fahrzeugeinträge, Clubs, Events und Notizen – wird nur auf deinem Gerät gespeichert und verlässt es nie.">Everything you create — photos, car records, clubs, events and notes — is stored only on your device and never leaves it.</span></li>
-      <li style="position:relative;padding-left:22px;color:var(--muted)"><span style="position:absolute;left:0;top:9px;width:8px;height:8px;border-radius:50%;background:var(--accent)"></span><span data-en="No analytics, no tracking, no advertising, and no third-party SDKs." data-de="Keine Analyse, kein Tracking, keine Werbung und keine Drittanbieter-SDKs.">No analytics, no tracking, no advertising, and no third-party SDKs.</span></li>
-      <li style="position:relative;padding-left:22px;color:var(--muted)"><span style="position:absolute;left:0;top:9px;width:8px;height:8px;border-radius:50%;background:var(--accent)"></span><span data-en="The only optional network feature is a “look up extra details” button that fetches a public Wikipedia summary using a car’s model name. It includes no personal data and never runs on its own." data-de="Die einzige optionale Netzwerkfunktion ist die Schaltfläche „Weitere Details nachschlagen“, die eine öffentliche Wikipedia-Zusammenfassung anhand des Modellnamens abruft. Sie enthält keine personenbezogenen Daten und läuft nie von selbst.">The only optional network feature is a “look up extra details” button that fetches a public Wikipedia summary using a car’s model name. It includes no personal data and never runs on its own.</span></li>
-      <li style="position:relative;padding-left:22px;color:var(--muted)"><span style="position:absolute;left:0;top:9px;width:8px;height:8px;border-radius:50%;background:var(--accent)"></span><span data-en="In-app purchases are processed by Apple; we never receive your payment details." data-de="In-App-Käufe werden von Apple abgewickelt; wir erhalten nie deine Zahlungsdaten.">In-app purchases are processed by Apple; we never receive your payment details.</span></li>
+      <li style="position:relative;padding-left:22px;color:var(--muted)"><span style="position:absolute;left:0;top:9px;width:8px;height:8px;border-radius:50%;background:var(--accent)"></span><span data-en="Everything you create — photos, car records, clubs, events and notes — is stored only on your device and never leaves it." data-de="Alles, was du erstellst – Fotos, Fahrzeugeinträge, Clubs, Events und Notizen – wird nur auf deinem Gerät gespeichert und verlässt es nie." data-es="Todo lo que creas —fotos, registros de autos, clubes, eventos y notas— se guarda solo en tu dispositivo y nunca sale de él.">Everything you create — photos, car records, clubs, events and notes — is stored only on your device and never leaves it.</span></li>
+      <li style="position:relative;padding-left:22px;color:var(--muted)"><span style="position:absolute;left:0;top:9px;width:8px;height:8px;border-radius:50%;background:var(--accent)"></span><span data-en="No analytics, no tracking, no advertising, and no third-party SDKs." data-de="Keine Analyse, kein Tracking, keine Werbung und keine Drittanbieter-SDKs." data-es="Sin analíticas, sin rastreo, sin publicidad y sin SDK de terceros.">No analytics, no tracking, no advertising, and no third-party SDKs.</span></li>
+      <li style="position:relative;padding-left:22px;color:var(--muted)"><span style="position:absolute;left:0;top:9px;width:8px;height:8px;border-radius:50%;background:var(--accent)"></span><span data-en="The only optional network feature is a “look up extra details” button that fetches a public Wikipedia summary using a car’s model name. It includes no personal data and never runs on its own." data-de="Die einzige optionale Netzwerkfunktion ist die Schaltfläche „Weitere Details nachschlagen“, die eine öffentliche Wikipedia-Zusammenfassung anhand des Modellnamens abruft. Sie enthält keine personenbezogenen Daten und läuft nie von selbst." data-es="La única función de red opcional es el botón «Buscar más detalles», que obtiene un resumen público de Wikipedia usando el nombre del modelo. No incluye datos personales y nunca se ejecuta por sí solo.">The only optional network feature is a “look up extra details” button that fetches a public Wikipedia summary using a car’s model name. It includes no personal data and never runs on its own.</span></li>
+      <li style="position:relative;padding-left:22px;color:var(--muted)"><span style="position:absolute;left:0;top:9px;width:8px;height:8px;border-radius:50%;background:var(--accent)"></span><span data-en="In-app purchases are processed by Apple; we never receive your payment details." data-de="In-App-Käufe werden von Apple abgewickelt; wir erhalten nie deine Zahlungsdaten." data-es="Las compras dentro de la app las procesa Apple; nunca recibimos tus datos de pago.">In-app purchases are processed by Apple; we never receive your payment details.</span></li>
     </ul>
-    <p style="color:var(--muted);margin-bottom:16px" data-en="Because we collect no personal data, there is nothing for us to share, sell, or delete on our side. To remove all app data, simply delete the app." data-de="Da wir keine personenbezogenen Daten erheben, gibt es auf unserer Seite nichts zu teilen, zu verkaufen oder zu löschen. Um alle App-Daten zu entfernen, lösche einfach die App.">Because we collect no personal data, there is nothing for us to share, sell, or delete on our side. To remove all app data, simply delete the app.</p>
-    <p style="font-weight:600"><span data-en="Support & questions:" data-de="Support & Fragen:">Support &amp; questions:</span> <a class="accent" href="mailto:bandurria.apps@gmail.com" style="text-decoration:none">bandurria.apps@gmail.com</a></p>
-    <p class="small" style="color:var(--muted);margin-top:8px"><span data-en="Last updated:" data-de="Zuletzt aktualisiert:">Last updated:</span> <span id="policyyear"></span></p>
+    <p style="color:var(--muted);margin-bottom:16px" data-en="Because we collect no personal data, there is nothing for us to share, sell, or delete on our side. To remove all app data, simply delete the app." data-de="Da wir keine personenbezogenen Daten erheben, gibt es auf unserer Seite nichts zu teilen, zu verkaufen oder zu löschen. Um alle App-Daten zu entfernen, lösche einfach die App." data-es="Como no recopilamos datos personales, no hay nada que compartir, vender ni eliminar de nuestra parte. Para borrar todos los datos de la app, simplemente elimínala.">Because we collect no personal data, there is nothing for us to share, sell, or delete on our side. To remove all app data, simply delete the app.</p>
+    <p style="font-weight:600"><span data-en="Support & questions:" data-de="Support & Fragen:" data-es="Soporte y preguntas:">Support &amp; questions:</span> <a class="accent" href="mailto:bandurria.apps@gmail.com" style="text-decoration:none">bandurria.apps@gmail.com</a></p>
+    <p class="small" style="color:var(--muted);margin-top:8px"><span data-en="Last updated:" data-de="Zuletzt aktualisiert:" data-es="Última actualización:">Last updated:</span> <span id="policyyear"></span></p>
   </div>
 </section>
 
@@ -339,36 +340,39 @@
   <div class="wrap foot">
     <div class="dev">
       <span class="flag">🇨🇭</span>
-      <span data-en="Made in Switzerland by Andres Wetzel" data-de="Entwickelt in der Schweiz von Andres Wetzel">Made in Switzerland by Andres Wetzel</span>
+      <span data-en="Made in Switzerland by Andres Wetzel" data-de="Entwickelt in der Schweiz von Andres Wetzel" data-es="Hecho en Suiza por Andres Wetzel">Made in Switzerland by Andres Wetzel</span>
     </div>
     <div class="small" style="display:flex;gap:16px;align-items:center;flex-wrap:wrap">
-      <a href="#privacy-policy" style="color:var(--muted);text-decoration:none" data-en="Privacy Policy" data-de="Datenschutz">Privacy Policy</a>
-      <a href="mailto:bandurria.apps@gmail.com" style="color:var(--muted);text-decoration:none" data-en="Support" data-de="Support">Support</a>
+      <a href="#privacy-policy" style="color:var(--muted);text-decoration:none" data-en="Privacy Policy" data-de="Datenschutz" data-es="Privacidad">Privacy Policy</a>
+      <a href="mailto:bandurria.apps@gmail.com" style="color:var(--muted);text-decoration:none" data-en="Support" data-de="Support" data-es="Soporte">Support</a>
       <span>© <span id="year"></span> AutoBib</span>
     </div>
   </div>
 </footer>
 
 <script>
+  var LANGS = ['en','de','es'];
   function setLang(lang){
+    if(LANGS.indexOf(lang)<0) lang='en';
     document.documentElement.lang = lang;
     document.querySelectorAll('[data-'+lang+']').forEach(function(el){
       el.textContent = el.getAttribute('data-'+lang);
     });
-    // title + meta description
     var t = document.querySelector('title');
     if(t.getAttribute('data-'+lang)) document.title = t.getAttribute('data-'+lang);
     var m = document.querySelector('meta[name=description]');
     if(m && m.getAttribute('data-'+lang)) m.setAttribute('content', m.getAttribute('data-'+lang));
-    document.getElementById('lang-en').classList.toggle('on', lang==='en');
-    document.getElementById('lang-de').classList.toggle('on', lang==='de');
+    LANGS.forEach(function(l){
+      document.getElementById('lang-'+l).classList.toggle('on', l===lang);
+    });
     try{ localStorage.setItem('autobib_lang', lang); }catch(e){}
   }
   (function(){
     var saved = null;
     try{ saved = localStorage.getItem('autobib_lang'); }catch(e){}
-    var lang = saved || ((navigator.language||'en').toLowerCase().indexOf('de')===0 ? 'de' : 'en');
-    setLang(lang);
+    var nav = (navigator.language||'en').toLowerCase();
+    var detected = nav.indexOf('de')===0 ? 'de' : (nav.indexOf('es')===0 ? 'es' : 'en');
+    setLang(saved || detected);
     var y = new Date().getFullYear();
     document.getElementById('year').textContent = y;
     document.getElementById('policyyear').textContent = y;
